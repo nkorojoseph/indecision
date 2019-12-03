@@ -1,0 +1,26 @@
+.header{
+    background: $off-black;
+    margin-bottom:$xl-size;
+    padding: $m-size 0 ;
+    color: white;
+
+}
+//BEM
+.header__title{
+    font-size: $l-size;
+    margin:0;
+}
+
+.header__subtitle{
+    font-size: $m-size;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    font-weight:500;
+}
+
+@media(min-width:$desktop-breakpoint){
+    .header{
+        margin-bottom: $xl-size;
+    }
+
+}
